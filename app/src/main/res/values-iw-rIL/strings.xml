@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameApp_RC1</string>
+    <string name="click_me">הצג</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+</resources>
