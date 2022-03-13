@@ -23,7 +23,7 @@ public class Activity_game extends AppCompatActivity {
     private MaterialTextView main_LBL_countryName;
     private MaterialTextView main_LBL_score;
 
-    private GameManager gameManager = new GameManager();
+    private final GameManager gameManager = new GameManager();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +61,7 @@ public class Activity_game extends AppCompatActivity {
 
     private void updateUI() {
         updateCountryDisplay();
-        main_LBL_score.setText("" + gameManager.getScore());
+        main_LBL_score.setText(String.valueOf(gameManager.getScore()));
     }
 
     private void answered(boolean answer){
